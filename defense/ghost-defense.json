@@ -1,0 +1,51 @@
+{
+  "attack": "unchanged nine-frame global vertical registration",
+  "estimated_shifts": [
+    6,
+    6,
+    7,
+    6,
+    6,
+    6,
+    1,
+    6
+  ],
+  "otsu_threshold": 0.2548828125,
+  "retained_component_count": 7,
+  "retained_component_areas": [
+    513183,
+    19740,
+    646,
+    873,
+    505,
+    707,
+    1269
+  ],
+  "attack_mask_fraction": 0.5825987413194444,
+  "precision_against_text": 0.08026476794624182,
+  "recall_against_text": 0.5956270558642232,
+  "intersection_over_union": 0.07611700145359876,
+  "mean_residual_inside_text": 0.26058869430137777,
+  "mean_residual_outside_text": 0.26155081550030873,
+  "inside_outside_residual_ratio": 0.99632147505604,
+  "raw_component_count": 7,
+  "template_readout": "W4 WZWJ W",
+  "expected_text": "GHOST",
+  "template_readout_matches": false,
+  "text": "GHOST",
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames": 36,
+  "fps": 24,
+  "dot_count": 55000,
+  "tile_size": 120,
+  "amplitude": 26.0,
+  "background_amplitude": 36.0,
+  "text_motion": "horizontal",
+  "background_motion": "circular",
+  "seed": 1195921235,
+  "video": "defense/ghost-hardened.mp4",
+  "measured_from": "decoded encoded video"
+}

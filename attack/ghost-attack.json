@@ -1,0 +1,43 @@
+{
+  "demo": "reproducible vulnerable global-motion baseline",
+  "text": "GHOST",
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames": 48,
+  "fps": 24,
+  "dot_count": 70000,
+  "background_speed_px_per_frame": 4,
+  "text_speed_px_per_frame": -2,
+  "seed": 1195921235,
+  "attack_frames": 9,
+  "estimated_shifts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "otsu_threshold": 0.1396484375,
+  "retained_component_count": 5,
+  "retained_component_areas": [
+    18215,
+    17174,
+    16795,
+    15976,
+    10707
+  ],
+  "attack_mask_fraction": 0.085576171875,
+  "intersection_over_union": 0.9076940544222836,
+  "mean_residual_inside_text": 0.28500542659907296,
+  "mean_residual_outside_text": 0.0038875367296649847,
+  "inside_outside_residual_ratio": 73.31260034773582,
+  "template_readout": "GHOST",
+  "template_readout_matches": true,
+  "minimum_template_margin": 0.34872947884426553,
+  "video": "attack/ghost-vulnerable.mp4"
+}
